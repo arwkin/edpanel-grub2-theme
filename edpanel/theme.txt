@@ -1,0 +1,74 @@
+# Elite Dangerous Role Panel GRUB2 theme
+# by Cmdr Arwkin
+#
+# Recommended GRUB2 defaults:
+# GRUB_GFXMODE="1920x1080"
+
+# General settings
+title-text: ""
+title-color: "#ff7000"
+desktop-image: "RolePanel_1920x1080.png"
+desktop-image-scale-method: "stretch"
+desktop-color: "#000000"
+
+terminal-font: "DejaVu Sans Mono Regular 14"
+terminal-left: "25%"
+terminal-width: "40%"
+terminal-top: "35%"
+terminal-height: "46%"
+
+# Greeting (Top)
++ label {
+  left = 0
+  top = 30%
+  width = 100%
+  align = "center"
+  text = "Welcome Commander"
+  color = "#ff7000"
+  font = "Euro Caps Regular 16"
+}
+
+# Progress bar
++ progress_bar {
+  id = "__timeout__"
+  left = 45%
+  top = 33%
+  height = 30
+  width = 10%
+  align = "center"
+  font = "Euro Caps Regular 16"
+  text_color = "#ffb000"
+  fg_color = "#ff7000"
+  bg_color = "#111111"
+  border_color = "#ffb000"
+  text = "Charging %d"
+  # Alternative text
+  #text = "Charging %03d"
+
+}
+
+# Boot Menu (Bottom)
++ boot_menu {
+  left = 25%
+  width = 40%
+  top = 35%
+  height = 46%
+  item_font = "Euro Caps Regular 28"
+  item_color = "#ff7100"
+  selected_item_color = "#ffb000"
+  item_height = 40
+  item_spacing = 4
+  scrollbar = true
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
+# Navigation keys (Bottom)
++ label {
+  left = 0
+  top = 75%
+  width = 100%
+  align = "center"
+  text = "Use [↑] and [↓] keys to select. [Enter] to engage. [c] for command mode. [e] to edit"
+  color = "#ff7100"
+  font = "Euro Caps Regular 16"
+}
