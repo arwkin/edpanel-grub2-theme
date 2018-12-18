@@ -11,11 +11,12 @@ desktop-image: "RolePanel_1920x1080.png"
 desktop-image-scale-method: "stretch"
 desktop-color: "#000000"
 
-terminal-font: "DejaVu Sans Mono Regular 14"
+terminal-font: "DejaVu Sans Regular 14"
+terminal-border: "1"
 terminal-left: "25%"
-terminal-width: "40%"
-terminal-top: "35%"
-terminal-height: "46%"
+terminal-width: "50%"
+terminal-top: "36%"
+terminal-height: "30%"
 
 # Greeting (Top)
 + label {
@@ -47,17 +48,18 @@ terminal-height: "46%"
 
 }
 
-# Boot Menu (Bottom)
+# Boot Menu (Middle))
 + boot_menu {
   left = 25%
-  width = 40%
-  top = 35%
-  height = 46%
+  width = 50%
+  top = 36%
+  height = 50%
   item_font = "Euro Caps Regular 28"
   item_color = "#ff7100"
   selected_item_color = "#ffb000"
-  item_height = 40
-  item_spacing = 4
+  item_height = 35
+  item_spacing = 5
+  item_padding = 10
   scrollbar = true
   selected_item_pixmap_style = "selected_item_*.png"
 }
