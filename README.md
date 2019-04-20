@@ -38,12 +38,19 @@ GRUB_GFXMODE="1920x1080"
 2. Remove or comment out lines beginning with **GRUB_THEME** and **GFXMODE** in **/etc/default/grub**
 
 #### Other
-Grub menu items may be renamed directly (by advanced users) or by using a tool such as [Grub-Customizer](https://git.launchpad.net/grub-customizer) by Daniel Richter.
+- Grub menu items may be renamed directly (by advanced users) or by using a tool such as [Grub-Customizer](https://git.launchpad.net/grub-customizer) by Daniel Richter.
+- Two ED themed icons can be used in place of normal OS icons. **pilots-fed.png** and **ed-mat-grade5.png**  menuentry example:
+```
+menuentry "Modify High Grade Firmware" --class ed-mat-grade5 'uefi-firmware' {
+  fwsetup
+}
+```
 
 #### Credits
 - Screen capture image is from the game Elite Dangerous by [Frontier Developments](http://frontier.co.uk/) o7
-- Original Euro Caps font by Tom Oetken. (https://www.fonts4free.net/fonts-by-tom-oetken.html)
-- Original OS icons by Vimix by vinceliuice (http://vinceliuice.deviantart.com/art/Grub-themes-vimix-0-1-532580485)
+- Original Euro Caps font by [Tom Oetken](https://www.fonts4free.net/fonts-by-tom-oetken.html)
+- Original OS icons by [Vimix](http://vinceliuice.deviantart.com/art/Grub-themes-vimix-0-1-532580485)
+- Other ED themed icons which can be used as OS icons sourced from [Elite Dangerous Assets](https://edassets.org)
 
 
 ____________________________________________________________________________
