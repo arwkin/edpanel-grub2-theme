@@ -2,8 +2,9 @@
 ## Elite Dangerous Role Panel Theme for the GRUB2 boot loader
 Created by [Arwkin](https://github.com/arwkin)
 
-![edpanel screenshot 1](edpanel1.png?raw=true "Screenshot example 1")
-![edpanel screenshot 2](edpanel2.png?raw=true "Screenshot example 2")
+![edpanel screenshot 1](edpanel1.jpg?raw=true "Screenshot example 1")
+![edpanel screenshot 2](edpanel2.jpg?raw=true "Screenshot example 2")
+![edpanel screenshot 3](edpanel3.jpg?raw=true "Screenshot example 3")
 **Note:** These instructions have been tested with Linux Mint and Antergos.
 
 #### Preparation
